@@ -12,6 +12,9 @@ namespace MathOperations.Tests.Common
         }
 
         private static string ReadFile(string path)
-            => File.ReadAllText(Path.GetFullPath(path));
+            => File.ReadAllText(
+                Directory.GetCurrentDirectory() +
+                path
+            );
     }
 }

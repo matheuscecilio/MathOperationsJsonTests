@@ -34,6 +34,21 @@
     <None Update="SecondDeegreEquations\Datas\Bhaskara\bhaskara-001.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="Sequences\Datas\Fibonacci\fibonacci-005.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Sequences\Datas\Fibonacci\fibonacci-004.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Sequences\Datas\Fibonacci\fibonacci-003.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Sequences\Datas\Fibonacci\fibonacci-002.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Sequences\Datas\Fibonacci\fibonacci-001.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

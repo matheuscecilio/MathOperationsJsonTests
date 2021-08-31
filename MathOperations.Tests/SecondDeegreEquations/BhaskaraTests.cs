@@ -10,9 +10,9 @@ namespace MathOperations.Tests.SecondDeegreEquations
     public class BhaskaraTests
     {
         [Theory]
-        [InlineData("SecondDeegreEquations/Datas/Bhaskara/bhaskara-001.json")]
-        [InlineData("SecondDeegreEquations/Datas/Bhaskara/bhaskara-002.json")]
-        [InlineData("SecondDeegreEquations/Datas/Bhaskara/bhaskara-003.json")]
+        [InlineData("/SecondDeegreEquations/Datas/Bhaskara/bhaskara-001.json")]
+        [InlineData("/SecondDeegreEquations/Datas/Bhaskara/bhaskara-002.json")]
+        [InlineData("/SecondDeegreEquations/Datas/Bhaskara/bhaskara-003.json")]
         public void ShouldCalculateBhaskaraCorrectly(string path)
         {
             var data = JsonConverter.GetValueFromPath<Data>(path);
