@@ -10,11 +10,11 @@ namespace MathOperations.Tests.Sequences
     public class FibonacciTests
     {
         [Theory]
-        [InlineData("/Sequences/Datas/Fibonacci/fibonacci-001.json")]
-        [InlineData("/Sequences/Datas/Fibonacci/fibonacci-002.json")]
-        [InlineData("/Sequences/Datas/Fibonacci/fibonacci-003.json")]
-        [InlineData("/Sequences/Datas/Fibonacci/fibonacci-004.json")]
-        [InlineData("/Sequences/Datas/Fibonacci/fibonacci-005.json")]
+        [InlineData("/Sequences/Data/Fibonacci/fibonacci-001.json")]
+        [InlineData("/Sequences/Data/Fibonacci/fibonacci-002.json")]
+        [InlineData("/Sequences/Data/Fibonacci/fibonacci-003.json")]
+        [InlineData("/Sequences/Data/Fibonacci/fibonacci-004.json")]
+        [InlineData("/Sequences/Data/Fibonacci/fibonacci-005.json")]
         public void ShouldCalculateFibonacciCorrectly(string path)
         {
             var data = JsonConverter.GetValueFromPath<Data>(path);
